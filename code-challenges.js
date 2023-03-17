@@ -22,14 +22,39 @@ const fruit4 = "kiwi"
 
 // Pseudo code:
 
+    // Make an arrow function that takes a number (temperature) and verifies if the number is below, at, or above another number (boiling point)
+    // Returns a string:
+            // "(Temperature) is below boiling point."
+            // "(Temperature) is at boiling point."
+            // "(Temperature) is above boiling point."
+    // The number that signifies boiling point is 212.
+
 const temperature1 = 42
+const temperature2 = 350
+const temperature3 = 212
+const boilingPoint = 212
+
+const isTemperatureBoiling = (number) => {
+    if (number > boilingPoint){
+        return `${number} is above boiling point.`
+    } else if (number < boilingPoint){
+        return `${number} is below boiling point.`
+    } else if (number === boilingPoint){
+        return `${number} is at boiling point.`
+    } else return "Please enter a temperature."
+}
+
+console.log(isTemperatureBoiling(temperature1)) // Output: "42 is below boiling point."
 // Expected output: "42 is below boiling point"
 
-const temperature2 = 350
+console.log(isTemperatureBoiling(temperature2)) // Output: "350 is above boiling point."
 // Expected output: "350 is above boiling point"
 
-const temperature3 = 212
+console.log(isTemperatureBoiling(temperature3)) // Output: "212 is at boiling point."
 // Expected output: "212 is at boiling point"
+
+console.log(isTemperatureBoiling()) // Output: "Please enter a temperature."
+
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
