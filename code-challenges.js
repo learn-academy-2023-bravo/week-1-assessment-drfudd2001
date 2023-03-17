@@ -32,6 +32,7 @@ const fruit4 = "kiwi"
 const temperature1 = 42
 const temperature2 = 350
 const temperature3 = 212
+
 const boilingPoint = 212
 
 const isTemperatureBoiling = (number) => {
@@ -59,10 +60,19 @@ console.log(isTemperatureBoiling()) // Output: "Please enter a temperature."
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
 // Pseudo code:
+    //Create code that combines the two arrays into a new array utilizing < "array1.concat(array2)".
+    //Then using the new array, return the lenght of said array utilizing < .length >.
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+
+const padresCombinedWorldSeriesRuns = padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
+
+console.log(padresCombinedWorldSeriesRuns) // Output: [2, 5, 2, 2, 4, 6, 3, 5, 3]
+
+console.log(padresCombinedWorldSeriesRuns.length) //Output: 9
 // Expected output: 9
+
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 
