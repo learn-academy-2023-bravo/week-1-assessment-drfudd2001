@@ -112,7 +112,7 @@ console.log(myNumbers.lastIndexOf(10)) // Output: 10
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Pseudo code:
-    // Make code that will arrenge the array values based on a numerical order from largest to smallest.
+    // Make code that will rearrange the array values based on a numerical order from largest to smallest.
     // By utilizing the < .sort > feature, and using two parameter to signify the values and two more values to indicate the desired order of values.
 
 const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]

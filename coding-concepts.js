@@ -26,7 +26,7 @@ const greeting = "Hello World!"
  console.log(greeting[4])
 
 // a) Your answer: o
-// b) Verify and explain: Using the variable assigned to the given array and using the array brackets with the desired index number, will access the value assigned to the index number. The index is based 0, therefore, even though the letter "o" is the fifth position in the given string, the index number given was 4.
+// b) Verify and explain: Using the variable assigned to the given array and using the array brackets with the desired index number, will access the value assigned to the index number. The index is base 0, therefore, even though the letter "o" is the fifth position in the given string, the index number given was 4.
 
 // --------------------3) What will this log?
 
@@ -57,4 +57,4 @@ const dataTypes = ["number", "string", "Boolean", "undefined"]
  console.log(typeof dataTypes.length)
 
 // a) Your answer: number
-// b) Verify and explain: The variable dataTypes with < .length > is verifyng the length of the array that the variable is assigned to. By using < typeof >, we would get the type of value < dataTypes.length > will return when called.
+// b) Verify and explain: The variable dataTypes with < .length > is verifying the length of the array that the variable is assigned to. By using < typeof >, we would get the type of value < dataTypes.length > will return when called.
